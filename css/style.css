@@ -1,0 +1,56 @@
+body ,#clearButton{
+    background-color: #F08AB1;
+}
+*{margin: 0;}
+
+.container{
+    background-color: #fff;
+    width: 40%;
+    min-height: 60vh;
+    margin: 150px auto;
+    padding: 20px;
+    box-shadow: 1px 7px 17px #888888;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+#header ,p{
+    font-family:cursive;
+}
+
+.card img{
+    width: 50px;
+    float: left;
+}
+.card{
+    padding: 0.5em;
+    margin-top: 1em;
+}
+.card p {
+padding-left:5em ;
+}
+#red{
+background-color: rgb(223, 118, 118);
+}
+#green{
+    background-color: rgb(211, 248, 155);
+}
+#blue{
+    background-color: rgb(194, 146, 238);
+}
+.buttons{
+
+text-align: center;
+
+}
+.buttons button{
+height: 2vh;
+}
+#clearButton{
+    margin-top:2em ;
+    height: 2.5em;
+width: 100%;
+color: white;
+font-weight: 400;
+font-size: large;
+}
